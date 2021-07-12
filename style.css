@@ -1,0 +1,55 @@
+/*O COMANDO PARA COMENTARIOS NO CSS É DIFERENTE DO HTML
+
+A regra básica do CSS é
+
+seletor {
+	propriedades: valores;
+}
+*/
+
+/* TAGS */
+p{
+	color: paleturquoise;
+}
+body {
+	background-image: url('sakura.jpg');
+	background-repeat: no-repeat;
+	backface-visibility: 50%;
+	font-family:Helvetica;
+	font-size: 18px;
+} 
+footer {
+	clear: both;
+	height: 60px;
+	background-color: rosybrown;
+}
+header {
+	background-color: rosybrown;
+	min-height: 30px;
+}
+/*Arial é paga. Se a máquina não tiver, vai usar helvetica, que é uma das favoritas dos designers*/
+
+/* IDS - com # */
+#divE {
+	background-color: whitesmoke;
+	min-height: 200px;
+	width: 60%;
+	float: left;
+	padding: 10px;
+	margin: 15px 10px;
+}
+#divD {
+	background-color: lavender;
+	min-height: 200px;
+	width: 30%;
+	float: right;
+	padding: 10px;
+	margin: 15px 10px;
+}
+ /*Quando usar o elemento float, na div debaixo tem que usar a tag clear pra ela não ficar escondida atrás*/
+
+/* CLASS - com . */
+.container{
+	width: 960px;
+	margin: auto;
+}
